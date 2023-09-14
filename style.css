@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: aqua;
+}
+ *{
+    margin: 110;
+    padding: 110; 
+ }
+ body{
+    height: 100 vh ;
+    box-sizing:border-box;
+    background-color: #000000;
+    color: #f6f6f6;
+ }
+
+
+ .apresentaçao_links{
+    display: flex;
+    justify-content: space-between;
+    .apresentaçao_links_link{
+        background-color: #2204fd;
+        width: 280 pix;
+        text-align: center;
+        border-radius: 16 pix;
+        font-size: 600;
+        padding: 21,5 pix;
+        text-decoration: none;
+        color: #000000;
+        font-family: 'montserrat',sans-serif;
+    }
+ }
